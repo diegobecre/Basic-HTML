@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación edad</title>
+</head>
+<body>
+    <script>
+        //Autor(es):Diego Becerra Regalado PROG4A
+        let edad = window.prompt("Introduce tu edad:")
+        let e=parseInt(edad);
+            if (edad >= 6 && edad <= 12) {
+              document.write('Estás en primaria');
+            } else if (edad >= 13 && edad <= 15) {
+              document.write('Estás en secundaria');
+            } else if (edad >= 16 && edad <= 18) {
+              document.write('Estás en preparatoria');
+            } else {
+              document.write('No estás en ninguna categoría de edad específica');
+            }
+    </script>
+</body>
+</html>

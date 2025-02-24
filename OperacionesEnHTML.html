@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let opcion = parseInt( window.prompt("Elige una opción:\n1. Sumar dos números\n2. Restar dos números\n3. Multiplicar dos números\n4. Dividir dos números\n5. Concatenar dos strings"));
+switch (opcion) {
+  case 1:
+    let num1 = parseInt(prompt("Ingresa el primer número:"));
+    let num2 = parseInt(prompt("Ingresa el segundo número:"));
+    document.write('El resultado es:' + (num1 + num2));
+    break;
+  case 2:
+    let num3 = parseInt(prompt("Ingresa el primer número:"));
+    let num4 = parseInt(prompt("Ingresa el segundo número:"));
+    document.write('El resultado es:' + (num3 - num4));
+    break;
+  case 3:
+    let num5 = parseInt(prompt("Ingresa el primer número:"));
+    let num6 = parseInt(prompt("Ingresa el segundo número:"));
+    document.write('El resultado es:' + (num5 * num6));
+    break;
+  case 4:
+    let num7 = parseInt(prompt("Ingresa el primer número:"));
+    let num8 = parseInt(prompt("Ingresa el segundo número:"));
+    document.write('El resultado es:' + (num7 / num8));
+    break;
+  case 5:
+    let str1 = prompt("Ingresa el primer string:");
+    let str2 = prompt("Ingresa el segundo string:");
+    document.write('El resultado es:' + str1 +", "+ str2);
+    break;
+  default:
+    document.write('Opción inválida.'); }
+    </script>
+</body>
+</html> 
